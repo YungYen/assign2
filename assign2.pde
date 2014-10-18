@@ -145,9 +145,6 @@ void draw(){
            life--;
            gameState = FROG_DIE;
          }
-         println(leftCar1X);
-         println(frogX);
-         println(",");
          // car2 hitTest
          if((frogX+16 >= leftCar2X)&&(frogX-16 <= leftCar2X)&&(frogY == leftCar2Y)){
            currentTime = millis();
